@@ -31,7 +31,7 @@ void skip_main()
     int x = 0;
     int y;
 aaaa:
-    std::cin >> y;
+    std::cin >> y;//name space std(cin)
 
     if (y < 0)
     {
@@ -47,3 +47,4 @@ aaaa:
         printf("Current sum: %d\n", x);
     }
 }
+
